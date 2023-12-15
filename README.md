@@ -1,4 +1,3 @@
-# docker-examples
 
 # Architecture's of Containers and VM's
 ![Alt Text](https://github.com/GadagojuShiva/docker-examples/blob/main/Infra.jpg)
