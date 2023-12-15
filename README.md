@@ -35,7 +35,7 @@
 
 
 # Architecture's of Docker
-![Alt Text]()
+![Alt Text](https://github.com/GadagojuShiva/docker-examples/blob/main/docker.jpg)
 
 # Terminology of Docker
 ```bash
@@ -48,5 +48,5 @@ Docker Container    --> A running instance of a Docker image, like a virtual com
 
 # Docker Life Cycle
 
-![Alt Text](https://github.com/GadagojuShiva/docker-examples/blob/main/lifecycle.jpg)
+![Alt Text](https://github.com/GadagojuShiva/docker-examples/blob/main/Copy%20of%20Infra.jpg)
 
