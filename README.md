@@ -35,7 +35,7 @@
 
 
 # Architecture's of Docker
-![Alt Text]()
+![Alt Text](https://github.com/GadagojuShiva/docker-examples/blob/main/docker.jpg)
 
 # Terminology of Docker
 ```bash
@@ -44,11 +44,12 @@ Docker Demon        --> The background service managing Docker containers.
 Docker file         --> A set of instructions in a file to build a Docker image.
 Docker Image        --> A lightweight, standalone package containing everything to run software.
 Docker Container    --> A running instance of a Docker image, like a virtual computer for an application.
+Registry            --> A registry is a centralized repository for storing and sharing Docker container images.
 ```
 
 # Docker Life Cycle
 
-![Alt Text](https://github.com/GadagojuShiva/docker-examples/blob/main/lifecycle.jpg)
+![Alt Text](https://github.com/GadagojuShiva/docker-examples/blob/main/Copy%20of%20Infra.jpg)
 
 # Docker Multi-Stage Builds
 
