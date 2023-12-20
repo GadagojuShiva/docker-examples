@@ -114,9 +114,11 @@ docker volume rm my_volume
 
 - Networking in the Docker allows containers to communicate with each other and with the host system.
 - We have Three types of Networking in the Docker:
-  - **Bridge network**  - Is the default network in the docker which uses docker0  which create vauth to communicate
-  - **Host network**    - All containers uses the same host network
-  - **Overlay Network** -  Every host ip is same 
+  - Bridge Network:This is the default network in Docker.It uses a bridge named docker0 to facilitate communication between containers. Each container connected to the bridge network gets its                     own unique IP address within the range of the bridge.
+  
+  - Host Network:  In the host network mode, all containers share the same network namespace as the host. Containers essentially use the host's networking stack, and they can communicate with                     each other and the host without network address translation (NAT).
+    
+  - Overlay Network: Overlay networks are particularly relevant in Docker Swarm mode, which is used for orchestrating and managing multiple Docker containers across multiple hosts.In an                             overlay network, every host has the same IP address, allowing containers on different hosts to communicate seamlessly as if they were on the same network.
 # Networking Commands
 ```bash
 # To list networks:
