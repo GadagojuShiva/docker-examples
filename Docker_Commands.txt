@@ -1,0 +1,75 @@
+Basic Docker Commands
+
+# List Docker CLI commands
+docker
+
+# List information about Docker CLI commands
+docker --help
+
+# Display Docker version and info
+docker --version
+docker version
+docker info
+
+Container Management
+
+# Pull an image from a registry
+docker pull [image_name]
+
+# List images
+docker images
+
+# Run a container
+docker run [image_name]
+
+# Run a container in the background
+docker run -d [image_name]
+
+# Run a container with a custom name
+docker run --name [container_name] [image_name]
+
+# Run a container with port mapping
+docker run -p [host_port]:[container_port] [image_name]
+
+# List running containers
+docker ps
+
+# List all containers
+docker ps -a
+
+# Stop a running container
+docker stop [container_id]
+
+# Start a stopped container
+docker start [container_id]
+
+# Restart a running container
+docker restart [container_id]
+
+# Remove a container
+docker rm [container_id]
+
+# Remove an image
+docker rmi [image_id]
+
+
+Docker Compose
+
+# Start services defined in docker-compose.yml
+docker-compose up
+
+# Start services in the background
+docker-compose up -d
+
+# Stop services
+docker-compose down
+
+# View service logs
+docker-compose logs
+
+# Build or rebuild services
+docker-compose build
+
+# List containers
+docker-compose ps
+
